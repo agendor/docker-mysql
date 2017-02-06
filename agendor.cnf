@@ -1,0 +1,7 @@
+[mysqld]
+#
+# The only configuration that has to be overridden on my.cnf.
+#
+lower_case_table_names        = 1
+bind-address		= 0.0.0.0
+ft_min_word_len = 3
